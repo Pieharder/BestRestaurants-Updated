@@ -5,7 +5,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
   
 }
 
@@ -29,4 +28,14 @@ body {
 
 .restaurants {
   display: inline-block;
+}
+
+.center {
+  text-align: auto;
+  margin-top: 300px;
+  margin-left: 400px;
+}
+
+#cuisineList {
+  color: beige;
 }
