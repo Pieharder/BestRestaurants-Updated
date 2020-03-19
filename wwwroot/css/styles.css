@@ -1,11 +1,32 @@
 body {
-  background-image: url(https://i.imgur.com/77kbUPf.jpg);
+  background-image: url(https://i.imgur.com/ZKtNJNg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  height: 100%;
+  
 }
 
+.title {
+  background: rgba(83, 83, 83, 0.39);
+  text-align: center;
+  color: white;
+  margin-top: 300px;
+}
 
-#button1 {
-  margin-top: 35px;
+.title h1 {
+  font-size: 120px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.buttons {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Sulphur Point', sans-serif;
+}
+
+.restaurants {
+  display: inline-block;
 }
