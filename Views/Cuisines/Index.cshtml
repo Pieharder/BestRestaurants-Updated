@@ -23,10 +23,11 @@
         {
           <li>@Html.ActionLink($"{cuisine.Name}", "Details", new { id = cuisine.CuisineId })</li>
         }
+        <div class="buttons">
+          <p>@Html.ActionLink("Add new cuisine", "Create", new { @class = "btn btn-dark btn-large" })</p>
 
-        <p>@Html.ActionLink("Add new cuisine", "Create")</p>
-
-        <p>@Html.ActionLink("Home", "Index", "Home")</p>
+          <p>@Html.ActionLink("Home", "Index", "Home", null, new { @class = "btn btn-dark btn-large" })</p>
+        </div>
       </div>
     </div>
     <div class="col">
